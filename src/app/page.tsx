@@ -119,7 +119,7 @@ export default async function Home() {
           {/* Vertical Card 1 */}
           <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', backgroundColor: '#111827', padding: '2rem', borderRadius: '1rem', border: '1px solid #1f2937', minHeight: '340px' }}>
             <div>
-              <div style={{ width: '3.5rem', height: '3.5rem', marginBottom: '1.5rem', borderRadius: '0.75rem', backgroundColor: 'rgba(220, 38, 38, 0.15)', color: '#ef4444', border: '1px solid rgba(239, 68, 68, 0.3)', display: 'flex', alignItems: 'center', justifyCenter: 'center', fontWeight: 900, fontSize: '1.25rem' }}>
+              <div style={{ width: '3.5rem', height: '3.5rem', marginBottom: '1.5rem', borderRadius: '0.75rem', backgroundColor: 'rgba(220, 38, 38, 0.15)', color: '#ef4444', border: '1px solid rgba(239, 68, 68, 0.3)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 900, fontSize: '1.25rem' }}>
                 01
               </div>
               <h3 style={{ fontSize: '1.35rem', fontWeight: 700, marginBottom: '0.75rem', color: '#ffffff' }}>
@@ -138,7 +138,7 @@ export default async function Home() {
           {/* Vertical Card 2 */}
           <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', backgroundColor: '#111827', padding: '2rem', borderRadius: '1rem', border: '1px solid #1f2937', minHeight: '340px' }}>
             <div>
-              <div style={{ width: '3.5rem', height: '3.5rem', marginBottom: '1.5rem', borderRadius: '0.75rem', backgroundColor: 'rgba(22, 163, 74, 0.15)', color: '#22c55e', border: '1px solid rgba(34, 197, 94, 0.3)', display: 'flex', alignItems: 'center', justifyCenter: 'center', fontWeight: 900, fontSize: '1.25rem' }}>
+              <div style={{ width: '3.5rem', height: '3.5rem', marginBottom: '1.5rem', borderRadius: '0.75rem', backgroundColor: 'rgba(22, 163, 74, 0.15)', color: '#22c55e', border: '1px solid rgba(34, 197, 94, 0.3)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 900, fontSize: '1.25rem' }}>
                 02
               </div>
               <h3 style={{ fontSize: '1.35rem', fontWeight: 700, marginBottom: '0.75rem', color: '#ffffff' }}>
@@ -157,7 +157,7 @@ export default async function Home() {
           {/* Vertical Card 3 */}
           <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', backgroundColor: '#111827', padding: '2rem', borderRadius: '1rem', border: '1px solid #1f2937', minHeight: '340px' }}>
             <div>
-              <div style={{ width: '3.5rem', height: '3.5rem', marginBottom: '1.5rem', borderRadius: '0.75rem', backgroundColor: 'rgba(220, 38, 38, 0.15)', color: '#ef4444', border: '1px solid rgba(239, 68, 68, 0.3)', display: 'flex', alignItems: 'center', justifyCenter: 'center', fontWeight: 900, fontSize: '1.25rem' }}>
+              <div style={{ width: '3.5rem', height: '3.5rem', marginBottom: '1.5rem', borderRadius: '0.75rem', backgroundColor: 'rgba(220, 38, 38, 0.15)', color: '#ef4444', border: '1px solid rgba(239, 68, 68, 0.3)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 900, fontSize: '1.25rem' }}>
                 03
               </div>
               <h3 style={{ fontSize: '1.35rem', fontWeight: 700, marginBottom: '0.75rem', color: '#ffffff' }}>
@@ -176,7 +176,7 @@ export default async function Home() {
           {/* Vertical Card 4 */}
           <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', backgroundColor: '#111827', padding: '2rem', borderRadius: '1rem', border: '1px solid #1f2937', minHeight: '340px' }}>
             <div>
-              <div style={{ width: '3.5rem', height: '3.5rem', marginBottom: '1.5rem', borderRadius: '0.75rem', backgroundColor: 'rgba(22, 163, 74, 0.15)', color: '#22c55e', border: '1px solid rgba(34, 197, 94, 0.3)', display: 'flex', alignItems: 'center', justifyCenter: 'center', fontWeight: 900, fontSize: '1.25rem' }}>
+              <div style={{ width: '3.5rem', height: '3.5rem', marginBottom: '1.5rem', borderRadius: '0.75rem', backgroundColor: 'rgba(22, 163, 74, 0.15)', color: '#22c55e', border: '1px solid rgba(34, 197, 94, 0.3)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 900, fontSize: '1.25rem' }}>
                 04
               </div>
               <h3 style={{ fontSize: '1.35rem', fontWeight: 700, marginBottom: '0.75rem', color: '#ffffff' }}>
