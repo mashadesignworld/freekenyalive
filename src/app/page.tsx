@@ -11,25 +11,18 @@ export const revalidate = 30;
 const FALLBACK: LiveEvent = {
   id: '', 
   title: "A New Dawn: The Tribeless People's Rally",
-  description: 'Uniting Kenya as one people, beyond ethnic lines. Join the digital gathering that is redefining our political future.',
+  description: 'Bringing Kenyans together beyond ethnic lines to build a united nation. Join the digital gathering where citizens connect, share ideas, ask questions, and shape a shared future for Kenya.',
   starts_at: '2026-11-07T15:00:00+03:00', 
   youtube_id: null, 
   status: 'scheduled', 
   chat_rooms: 3,
 };
 
+
 async function getData(): Promise<{ ev: LiveEvent; count: number }> {
-  try {
-    const sb = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!);
-    const { data: ev } = await sb.from('events').select('*')
-      .in('status', ['scheduled', 'live']).order('starts_at').limit(1).maybeSingle();
-    if (!ev) return { ev: FALLBACK, count: 0 };
-    const { data: count } = await sb.rpc('rsvp_count', { p_event: ev.id });
-    return { ev, count: Number(count ?? 0) };
-  } catch {
-    return { ev: FALLBACK, count: 0 };
-  }
+  return { ev: FALLBACK, count: 0 };
 }
+
 
 export default async function Home() {
   const { ev, count } = await getData();
