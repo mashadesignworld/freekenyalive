@@ -12,7 +12,7 @@ const FALLBACK: LiveEvent = {
   id: '', 
   title: "A New Dawn: The Tribeless People's Rally",
   description: 'Bringing Kenyans together beyond ethnic lines to build a united nation. Join the digital gathering where citizens connect, share ideas, ask questions, and shape a shared future for Kenya.',
-  starts_at: '2026-11-07T15:00:00+03:00', 
+  starts_at: '2026-11-16T15:00:00+03:00', 
   youtube_id: null, 
   status: 'scheduled', 
   chat_rooms: 3,
